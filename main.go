@@ -11,7 +11,7 @@ import (
 
 func init() {
 	// Inicializar la conexión a la base de datos
-	initializers.LoadEnvVariables()
+	// initializers.LoadEnvVariables()
 	initializers.ConnectToDB()
 }
 
